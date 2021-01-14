@@ -1,3 +1,4 @@
 theme: jekyll-theme-hacker
 name: JamSec Blog
 markdown: kramdow
+permalink: /blog/:year/:month/:day/:title
