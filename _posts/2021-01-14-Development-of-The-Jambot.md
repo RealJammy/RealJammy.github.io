@@ -62,7 +62,7 @@ I threw the code on [GitHub](https://github.com/RealJammy/The-Jambot) and hoped 
 
 When making any project whatsoever, the absolute first thing you should think of is the purpose of it, ask yourself, Why am I doing this? What will this achieve? ~~I didn't do any of this lmao~~  So I took suggestions on what to include, I chose to include 3 "fun" commands and 3 admin-y commands(i'll leave the code below if you're really interested, please don't actually use it, it is terrible code and should NEVER be used by you in bot development)
 
-```python
+```py
 import discord
 from discord.ext import commands
 
@@ -97,11 +97,14 @@ async def lyne(ctx):
 @commands.has_permissions(administrator=True)
 async def byebye(ctx, amount=5):
   await ctx.channel.purge(limit=amount)                                                                                                                                                                                                    
-@client.command()                                                                                                                         @commands.has_permissions(administrator=True)
-async def kick(ctx, member : discord.Member, *, reason=None):                                                                                                                                                                              
+@client.command()                                                                                                                                                                                                                            @commands.has_permissions(administrator=True)                                                                                                                                                                                              
+async def kick(ctx, member : discord.Member, *,reason=None):                                                                                                                                                                              
   await member.kick(reason=reason)                                                                                                                                                                                                         
 
-@client.command()                                                                                                                         @commands.has_permissions(administrator=True)                                                                                             async def ban(ctx, member : discord.Member, *, reason=None):                                                                                                                                                                               
+@client.command()                                                                                                                                                                                                                          
+@commands.has_permissions(administrator=True)                                                                                                                                                                                              
+async def ban(ctx, member : discord.Member, *, reason=None):
+
   await member.ban(reason=reason)
 ```
 
