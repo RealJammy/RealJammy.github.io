@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "What-Text-Editor-Should-You-Use"
+title: "What Text Editor Should You Use"
 date: 2021-01-15
 ---
-# What Text Editor Should You Use?
-
 A commonly debated question among cybersec groups(and for note taken for formal education) is: "What text editor should I use?" Many people hold strong opinions on this topic, including me. However, this doesn't mean that you shouldn't be open to change. Hopefully today, I'll highlight the benefits and drawbacks of certain text editors, and hope you can make a more informed decision on what you use in your future quests.
 
 ---
@@ -23,7 +21,7 @@ Simple vim, one may say, an overrated program, others also say. Actually, for ed
 
 ## Vim
 
-You may hear tales of people stanning vim uncontrollably, with them swearing not to use any other text editor, and yeah, it may be good for their workflow. If you like to use a CLI text editor with a huge learning curve, and massively overcomplicate something that should only be used for really simple tasks, then yeah you'll love vim! If you can't tell, I'm not a fan of vim to be honest. If you're fine with the learning curve however, vim may be great for you! However, for my work, vim doesn't really fit in with what I do that well, that's why I choose not to use it. Vim is a default install on most GNU/Linux distributions, making it nice and easy to install, however, usage of vim requires memorisation of key combos, and if you're only using vim for really simple edits, then it's not worth the time to learn it imo. 
+You may hear tales of people stanning vim uncontrollably, with them swearing not to use any other text editor, and yeah, it may be good for their workflow. If you like to use a CLI text editor with a huge learning curve, and massively overcomplicate something that should only be used for really simple tasks, then yeah you'll love vim! If you can't tell, I'm not a fan of vim to be honest. If you're fine with the learning curve however, vim may be great for you! However, for my work, vim doesn't really fit in with what I do that well, that's why I choose not to use it. Vim is a default install on most GNU/Linux distributions, making it nice and easy to install, however, usage of vim requires memorisation of key combos, and if you're only using vim for really simple edits, then it's not worth the time to learn it imo.
 
 ---
 
@@ -76,7 +74,7 @@ You may wonder, why weren't atom or vscode included on this list? Well, although
 
 ---
 
-  
+
 
 ## Final Thoughts/ Summary
 
