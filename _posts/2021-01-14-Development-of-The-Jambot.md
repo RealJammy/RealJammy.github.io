@@ -46,7 +46,7 @@ Finally, a big shout out to a cool guy named [JamBot3000](https://github.com/Jam
 
 Let's cast our minds back to the 11th of August 2020. A young Jammy discovered an interesting concept - writing a bot for my favourite platform - discord. Initially, I thought it would be extremely hard to setup, but after importing a few python modules, grabbing a bot token from discord's developer portal and slapping together a few lines of code, The Jambot showed its first signs of life.
 
-![img](image1.png)
+
 
 yeah, i was pretty happy about this working lol
 
@@ -112,7 +112,7 @@ I hosted this on a really bad Kali Virtual Machine on a school laptop - please d
 
 Almost immediately after bringing up The Jambot for the first time, I encountered my first problem, mass usage of commands all happening at once.
 
-![image-20210114181133827](C:\Users\isaiah\AppData\Roaming\Typora\typora-user-images\image-20210114181133827.png)
+
 
 Almost instantly, I realised that self hosting a bot is a terrible idea, and that you should not do this, if you choose to embark on discord bot dev in the future, do not self host, and use a free service like Heroku, which I turned to in the end. Another limitation of self hosting is that the bot was only up when I bothered to turn on the, not the best specced, but not the worst, laptop.
 
@@ -132,15 +132,15 @@ On the 25th of August, I made 3 critical mistakes in coding, they were:
 
 The first mistake of this was adding a command that pingspammed a specific user or role. At first, this was just harmless fun, until I found out that a user is also able to mention roles, including `@everyone`, a role that every member of a discord server would have.
 
-![image-20210114182928857](C:\Users\isaiah\AppData\Roaming\Typora\typora-user-images\image-20210114182928857.png)
+
 
 yeah, needless to say that this did not go down well in a server of 60 busy teenagers. What's a lesson you can take from this? Filter out any commands with the character "@" in, and to never trust the user. One may assume, that I'd learn from this incident, but no, it took another mistake for me to fully understand my ways. The cool guy named JamBot3000 from earlier included a command that allowed you to search *any* subreddit for a post.
 
-![image-20210114183424073](C:\Users\isaiah\AppData\Roaming\Typora\typora-user-images\image-20210114183424073.png)
+
 
 When used responsibly, this command is really fun and cool, however, there was one issue. When I said *any* subreddit, I meant *any* subreddit, even including the NSFW ones. Needless to say, this didn't bring the best results.
 
-![image-20210114184516507](C:\Users\isaiah\AppData\Roaming\Typora\typora-user-images\image-20210114184516507.png)
+
 
 yeah so I never fixed it please don't use the jambot irresponsibly xoxo
 
@@ -177,11 +177,11 @@ yeah... any of you see `from os import system as djungel`? Any competent program
 
 In our development channel for The Jambot, this "joke" was made:
 
-![image-20210114185643797](C:\Users\isaiah\AppData\Roaming\Typora\typora-user-images\image-20210114185643797.png)
+
 
 yeah, so at the time I wasn't the best at reading code, but letting something like that through is an incredibly stupid mistake. Now, what's the impact of this?
 
-![image-20210114191813933](C:\Users\isaiah\AppData\Roaming\Typora\typora-user-images\image-20210114191813933.png)
+
 
 This is what I like to call: a moment of realisation and regret.
 
