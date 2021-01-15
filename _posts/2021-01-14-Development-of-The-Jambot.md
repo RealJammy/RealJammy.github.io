@@ -20,7 +20,7 @@ One more thing I have to say, a massive thank you to anyone who's helped me with
 
 - [Day91](https://github.com/Day91)
 
-- [Mystrite]((https://github.com/Mystrite))
+- [Mystrite](https://github.com/Mystrite)
 
 - [speccy](https://specatron111.github.io/)
 
@@ -46,7 +46,7 @@ Finally, a big shout out to a cool guy named [JamBot3000](https://github.com/Jam
 
 Let's cast our minds back to the 11th of August 2020. A young Jammy discovered an interesting concept - writing a bot for my favourite platform - discord. Initially, I thought it would be extremely hard to setup, but after importing a few python modules, grabbing a bot token from discord's developer portal and slapping together a few lines of code, The Jambot showed its first signs of life.
 
-![image-20210114174029773]("image1.png")
+![img](image1.png)
 
 yeah, i was pretty happy about this working lol
 
@@ -154,7 +154,7 @@ I'll admit. Mistake 1 was a direct result of me being really really stupid,  par
 
 Here's the section of code that caused the vulnerability, brownie points go out to those who see it
 
-```python
+```py
     @commands.command(brief='djungelskog!')
     async def djungelskog(self, ctx, skog):
         try:
@@ -231,3 +231,4 @@ One may say that an opening of "The Jambot is an ever evolving story of personal
 Blog Post By Jammy
 
 14/01/21
+
