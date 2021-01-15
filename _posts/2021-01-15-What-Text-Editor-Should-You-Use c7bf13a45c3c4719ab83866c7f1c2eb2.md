@@ -1,4 +1,9 @@
-# 2021-01-15-What-Text-Editor-Should-You-Use
+---
+layout: post
+title: "What-Text-Editor-Should-You-Use"
+date: 2021-01-15
+---
+# What Text Editor Should You Use?
 
 A commonly debated question among cybersec groups(and for note taken for formal education) is: "What text editor should I use?" Many people hold strong opinions on this topic, including me. However, this doesn't mean that you shouldn't be open to change. Hopefully today, I'll highlight the benefits and drawbacks of certain text editors, and hope you can make a more informed decision on what you use in your future quests.
 
