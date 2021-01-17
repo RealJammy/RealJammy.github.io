@@ -1,9 +1,14 @@
-# How to make a writeup
+---
+layout: post
+title: "How to make a writeup"
+date: 2021-01-17
+---
+
 
 Sharing writeups are a common staple of post CTF ritual. They're great for:
 
-1. Showing your thought methodology and by an extension,  logical thinking process 
-2. if you've won a prize, they're a great way to validate your completion of challenges 
+1. Showing your thought methodology and by an extension,  logical thinking process
+2. if you've won a prize, they're a great way to validate your completion of challenges
 3. Learning new categories,  and types of challenges, and using this to overall improve your CTF skills
 4. and for organisers - learn about alternate solutions for your challenges,  and maybe use these ideas to make new challenges.
 
@@ -56,18 +61,18 @@ Why is this bad?
 - Very vague
 - No flag at the end
 
-A better example of a writeup would be: 
+A better example of a writeup would be:
 
-After looking at the source code, we can see that the program is vulnerable to a simple buffer overflow, which if what we enter is over 15 characters, it will add 1 to the variable `limit` , printing a secondary string to the user. We can use the printf command, and pipeing it's output into the program to achieve this. The resulting output in the terminal was: 
+After looking at the source code, we can see that the program is vulnerable to a simple buffer overflow, which if what we enter is over 15 characters, it will add 1 to the variable `limit` , printing a secondary string to the user. We can use the printf command, and pipeing it's output into the program to achieve this. The resulting output in the terminal was:
 
 ```bash
-➜  Downloads printf 'rfn4uifu4bufigb43uibuib4iub\n' | ./vulnerable 
+➜  Downloads printf 'rfn4uifu4bufigb43uibuib4iub\n' | ./vulnerable
 
- Enter the password : 
+ Enter the password :
 
- pwn me better 
+ pwn me better
 
- Take the flag nya! 
+ Take the flag nya!
  NjYgNmMgNjEgNjcgN2IgNzAgNzcgNmUgNjUgNjQgNWYgNmQgNjUgNWYgNzUgNzcgNzUgNWYgN2Q=
 ```
 
@@ -107,13 +112,13 @@ If you are making a lot of writeups for a CTF, you'll want them to follow a form
 
 ## Tip 3 - Writing for your audience
 
-This should be a quick one, but your audience will mainly be technical people, who know their way around a command line with basic commands; you don't need to explain to people the full process of listing files in a directory, or installing a python module. However, this doesn't give you an excuse to slack on all parts of your writeup; also don't assume that people know how to solve a challenge, just because you can. 
+This should be a quick one, but your audience will mainly be technical people, who know their way around a command line with basic commands; you don't need to explain to people the full process of listing files in a directory, or installing a python module. However, this doesn't give you an excuse to slack on all parts of your writeup; also don't assume that people know how to solve a challenge, just because you can.
 
 ---
 
 ## General Ettiquette
 
-Here's some general rules/ tips to abide by, when making writeups, not all of these will be said explicitly, so use your judgement. 
+Here's some general rules/ tips to abide by, when making writeups, not all of these will be said explicitly, so use your judgement.
 
 - Firstly, don't publish writeups for CTFs that are still active/ HTB boxes or challenges that aren't retired; these ruin the experience for everyone.
 - Use a popular website to share your writeups, i.e a Github repo or gitbook.
@@ -124,7 +129,7 @@ Here's some general rules/ tips to abide by, when making writeups, not all of th
 
 ## Final Thoughts
 
-Firstly, why wasn't this as long as other posts? Well, I didn't *really* have too much to say, so as tip 1 said, there's no point in elongating something that doesn't need to be stretched out. 
+Firstly, why wasn't this as long as other posts? Well, I didn't *really* have too much to say, so as tip 1 said, there's no point in elongating something that doesn't need to be stretched out.
 
 Anyways, I hope you've gained something by reading my first cybersec/ CTF related blog! Hopefully there's more to come 😃
 
